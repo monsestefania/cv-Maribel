@@ -1,0 +1,187 @@
+/*table, th, td {
+  border: 1px solid black;
+}*/
+body{
+  letter-spacing: .3px;
+}
+th, tr {
+  padding: 15px 15px 15px 0;
+}
+
+#title {
+  background-color: #E8DED2;
+}
+
+
+/*General page style */
+.container-fluid{
+
+  padding: 3% 8%;
+}
+
+a{
+  color: red;
+}
+h1{
+  font-family: 'Lato-Bold', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #148496;
+}
+h2{
+  font-family: 'Lato-Bold', sans-serif;
+  line-height: 1.5;
+
+}
+.blue-text{
+  color: #148496;
+}
+
+
+.title-space{
+  margin-bottom: 50px;
+}
+
+/*Iconos*/
+.fa-circle{
+  color: #EDDB00;
+}
+
+/* Navigation bar */
+.navbar-light .navbar-nav .nav-link {
+    color: #4AA0B5;
+    font-size: 1.5rem;
+    margin-left: 25px;
+
+    ;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #148496;
+    ;
+}
+
+/*row-landing*/
+.row{
+  padding-top: 100px ;
+}
+.row-marging-bottom{
+  margin-bottom: 300px;
+}
+
+.title-image{
+  width: 100%;
+  height: auto;
+  position: absolute;
+
+}
+.btn-outline-info{
+  margin-right: 30px;
+}
+
+
+/*
+ *  about me
+/*
+
+  /*position: relative;*/
+
+.about-me-text{
+  color: #148496;
+  font-size: 1.30rem;
+}
+
+.photo-about-me-row .photo-about-me{
+  width: 90%;
+  height: auto;
+  margin-bottom: 0px;
+}
+.table-text{
+  color: black;
+  font-size: 1.20rem;
+}
+.column{
+  padding-right: 60px;
+}
+
+
+/*
+*Experience
+*/
+.experience-text p{
+  font-size: 1.30rem;
+}
+
+/*
+*CTA
+*/
+
+.cta-div{
+  text-align: center;
+  background-color: #A3D2CA;
+  padding: 100px 100px;
+  border-radius: 25px;
+}
+.cta-div p{
+  font-size: 1.30rem;
+}
+.social-icon{
+  font-size: 3.5rem;
+  margin: 10px 25px 0 25px;
+}
+.cta-div th{
+  padding: 0;
+}
+.email{
+  font-size: 2rem;
+}
+/*
+ *Footer
+*/
+.footer-text{
+  text-align: center;
+  padding: 50px 0 80px 0
+}
+
+
+
+/*
+  *Responsive
+*/
+@media (max-width: 1483px){
+  .table-text{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 1023px){
+  .title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+
+  }
+  .row-marging-bottom{
+    margin-bottom: 50px;
+  }
+  .table-text{
+    font-size: .80rem;
+  }
+  .column{
+    padding-right: 30px;
+  }
+
+  .photo-about-me-row .photo-about-me{
+    margin-bottom: 50px;
+  }
+  .cta-div{
+    padding: 35px 25px;
+  }
+  .cta-div h2{
+    font-size: 1.5rem;
+  }
+  .email{
+    font-size: 1rem;
+  }
+}
